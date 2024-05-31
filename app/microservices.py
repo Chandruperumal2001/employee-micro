@@ -69,5 +69,3 @@ def delete_record(id=None):
     record = employee.objects.get(id=id)
     record.delete()
     print('Record deleted succfully')
-
-  
